@@ -18,7 +18,7 @@ while !adivinado
 
   if intento == numero_adivinador
     puts "¡Felicidades!. Firme, adivinaste el número coletic@."
-    adivinado = true
+    break
   elsif intento < numero_adivinador
     puts "Muy bajo. Intenta de nuevo."
   else
