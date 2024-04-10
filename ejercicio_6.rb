@@ -10,9 +10,9 @@ el juego debería imprimir un mensaje de felicitación y salir.
 
 numero_adivinador = rand(1..100)
 
-adivinado = false
+nombre = false
 
-while !adivinado
+while !nombre
   print "Ingresa tu intento coletic@: "
   intento = gets.chomp.to_i
 
